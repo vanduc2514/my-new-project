@@ -1,0 +1,30 @@
+1. Đi đến trang: https://github.com
+
+2. Nhấn vào mục "New repository" để bắt đầu tạo một Repository mới
+
+3. Trong màn hình tạo Repository mới, chúng ta điền tên của dự án mới vào. Chẳng hạn chúng ta đặt tên dự án mới là "my-new-project". Sau đó nhấn và nút "Create repository".
+
+Kết quả sẽ được một Repository mới. Giao diện ban đầu của Repository này chứa các hướng dẫn cần thiết để làm việc với nó
+
+4. Sau khi đã tạo được Remote Repository trên GitHub, bây giờ chúng ta sẽ mở cửa sổ Terminal lên để tạo Local Repository và đồng bộ nó tới Remote Repository trên.
+
+Chúng ta sẽ tạo một thư mục mới trên máy tính của mình, có thể đặt tên bất kỳ. Chẳng hạn chúng ta có thể đặt tên thưc mục là "my-new-project" (giống với tên của Repository).
+
+5. Chuyển Terminal đến thư mục "my-new-project" vừa tạo và sử dụng lệnh git init để khởi tạo Repository mới.
+
+6. Tiếp theo, sử dụng lệnh git remote add origin để kết nối tới Remote Repository (chú ý sử dụng dúng đường dẫn của Repository mà bạn vừa tạo)
+
+7. Trong thư mục "my-new-project", chúng ta tạo một file mới có tên là "README.md". Đây là file dùng để chứa mô tả về dự án này, hầu hết tất cả các Repository đều có file này để giới thiệu cho người khác biết về mục đích của dự án. Chúng ta có thể viết một nội dung bất kỳ vào file này.
+
+8. Sử dụng câu lệnh git add để đưa file README.md vào trong chỉ mục của Git
+
+9. Sử dụng câu lệnh git commit để lưu lại các thay đổi.
+
+Trong câu lệnh trên, tuỳ chọn -m được sử dụng để ghi một "message" đánh dấu cho thay đổi vừa rồi. Nó giải thích rằng chúng ta vừa thêm một file README.md mới. Chúng ta cần ghi các thông điệp có ý nghĩa để dễ dàng cho việc hiểu và cộng tác nhóm sau này.
+
+10. Sử dụng câu lệnh git push để đẩy các thay đổi ở Local Repository lên trên Remote Repository.
+
+11. Hãy lặp lại các bước từ 7 đến 10 để tạo các file mới.
+
+
+
